@@ -18,7 +18,7 @@ const App = () => {
 const styles = {
   appStyle: {
     backgroundColor: 'white',
-    height: 1000
+    flex: 1
   }
 };
 
