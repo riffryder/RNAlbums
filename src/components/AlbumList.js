@@ -24,7 +24,7 @@ class AlbumList extends Component {
   renderAlbums() {
     // console.log("THIS IS THE STATE", this.state)
     return this.state.albums.map((album) => 
-      <AlbumDetail key={album.title} albums={album}/>
+      <AlbumDetail key={album.title} album={album}/>
     )
   }
 
